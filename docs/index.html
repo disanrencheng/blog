@@ -7,18 +7,21 @@
     <meta name="description" content="Description">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+    <style>
+        aside {
+            display: none!important;
+        }
+        .content {
+            left:0!important;
+
+        }
+    </style>
 </head>
 
 <body>
     <div id="app">加载中......</div>
 </body>
-<script>
-    window.$docsify = {
-        name: '技术分享',
-        repo: ''
-    }
 
-</script>
-<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js" data-load-sidebar></script>
 
 </html>
