@@ -1,7 +1,0 @@
--| docs/
-  -| README.md
-  -| guide.md
-  -| note/
-  -| share/
-    -| README.md
-    -| guide.md
