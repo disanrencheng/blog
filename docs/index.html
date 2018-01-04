@@ -22,14 +22,28 @@
 </body>
 
 <script>
+    var reg =/d\.pr/gi;
     window.$docsify = {
-      loadNavbar: true,
       loadSidebar: true,
       maxLevel: 3,
-      autoHeader: true,
-      subMaxLevel: 3
+    //   autoHeader: true,
+      subMaxLevel: 3,
+    //   markdown:{
+    //     smartypants: true,
+    //     renderer: {
+    //         image:function(href,title,text){
+    //             var herf=href.replace(reg,'cdn-pro.dprcdn.net/files/acc_619941');
+    //             var str ='<img src="'+herf+'" alt="'+text+'" >';
+    //             return str 
+    //             }
+    //         }
+    //   }
     }
   </script>
-<script src="//unpkg.com/docsify/lib/docsify.min.js" data-load-sidebar></script>
-
+<script src="//unpkg.com/vue/dist/vue.min.js"></script>
+<script src="//unpkg.com/vuep/dist/vuep.min.js"></script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-stylus.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
 </html>
