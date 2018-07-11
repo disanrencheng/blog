@@ -1,2 +1,2 @@
-* [学习提纲](note/css_summary)
-* [dom与选择器](note/css_selector)
+* [概要](note/summary)
+* [基础-01](note/css_selector)
