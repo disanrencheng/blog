@@ -7,24 +7,34 @@
     <meta name="description" content="Description">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+    <style lang="">
+        .app-sub-sidebar li:before {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
+    <nav>
+        <a href="#/note/summary">概要</a>
+        <a href="#/note/css_selector">选择器</a>
+    </nav>
     <div id="app">加载中......</div>
 </body>
 
 <script>
-    var reg =/d\.pr/gi;
+    var reg = /d\.pr/gi;
     window.$docsify = {
-      loadSidebar: true,
-      maxLevel: 3,
-      subMaxLevel: 3,
+        loadSidebar: true,
+        subMaxLevel: 6,
+        loadNavbar: true
     }
-  </script>
+</script>
 <script src="//unpkg.com/vue/dist/vue.min.js"></script>
 <script src="//unpkg.com/vuep/dist/vuep.min.js"></script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
 <script src="//unpkg.com/prismjs/components/prism-stylus.js"></script>
 <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
+
 </html>
